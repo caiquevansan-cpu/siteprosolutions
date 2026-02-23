@@ -166,3 +166,50 @@ background:#ffffff;
 color:#111;
 padding:80px 20px;
 }
+.ofertas{
+background:linear-gradient(135deg,#d62828,#f77f00);
+padding:80px 20px;
+text-align:center;
+color:white;
+}
+
+.ofertas h2{
+font-size:40px;
+margin-bottom:40px;
+}
+
+.grid-ofertas{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+}
+
+.item-oferta{
+width:140px;
+}
+
+.foto-produto{
+width:120px;
+height:120px;
+border-radius:50%;
+overflow:hidden;
+border:6px solid yellow;
+margin:auto;
+}
+
+.foto-produto img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+.preco{
+background:yellow;
+color:black;
+font-weight:bold;
+padding:6px 10px;
+border-radius:20px;
+margin-top:10px;
+display:inline-block;
+}
